@@ -1,0 +1,399 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+:root{
+    --primeri-text-color:#000000;
+    --title-text-color:#757575;
+    --accent-text-color:#2196f3;
+    --basis-text-color:#ffffff;
+    --background-color-primeri:#ffffff;
+    --background-color-title:#2f303a;
+    --background-color-accent:#2196F3;
+}
+body{
+    color:var(--primeri-text-color);
+    background-color:var(--background-color-primeri);
+    font-family:Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+}
+    .list{
+        list-style:none;
+        margin:0px;
+        padding: 0px;
+     
+        
+    }
+
+    .h1
+    .h2
+    .h3
+    .h4
+    .h5
+    .h6{
+         margin: 0px;
+       
+    }
+    .p,.ul{
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+   /*Заголовок*/ 
+
+.header{
+    border-bottom: 80px;
+
+}
+
+.container{
+    width: 1230px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    margin-left: auto;
+    
+
+}  
+
+  
+  
+.main-nave{     
+    display: flex;
+    align-items: center
+    }
+
+    
+          
+.colortext {
+    color: rgba(33, 150, 243, 1);
+        
+    }
+.page{
+    color:var(--primeri-text-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;  
+    text-decoration:none;  
+    margin-right: 93px;
+        
+                 
+               
+        }   
+.site-nave{
+    display: flex;
+                
+        }
+
+    
+.site-nave .link{
+    color:var(--primeri-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    text-decoration:none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+      
+
+} 
+ 
+
+.site-nave .item +.item{
+    margin-left: 50px;
+
+    } 
+
+.site-nave .link:hover,
+.site-nave .link:focus{
+        color:var(--accent-text-color);
+    } 
+  
+       
+.container-item{
+    width: 1230px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.current-link .item+.item{
+    margin-left:50px;
+    
+    }     
+    
+
+.current-link{
+    color:rgba(117, 117, 117, 1);
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+       
+       
+}
+.current-link{
+    display: flex;
+    margin-left: auto;
+
+}
+
+   
+
+.current-link:hover,
+.current-link:focus{
+        color:var(--accent-text-color);
+    }
+
+        
+    
+    
+    /*Section*/
+
+.section-title {
+    color:var(--primeri-text-color);
+
+}
+    
+/*------Main------*/
+
+
+.button{
+    color:var(--primeri-text-color);
+     border: 4px solid #f5f4fa ;
+    border-radius:8px ;
+    min-width: 125px;
+    padding: 6px 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align:center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor:pointer;
+    
+    
+    
+}
+.section{
+   padding-top: 15px;
+   padding-bottom:15px ;
+}
+
+.button:hover,
+.button:focus{
+    color:var(--basis-text-color);
+    background-color:var(--background-color-accent);
+    
+}
+.container-main{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    
+}
+
+/*.item-box{
+    display: flex;
+    margin: auto;
+}*/
+/*.item-box:first-child{
+    margin-left: 0px;
+}*/
+.item-box:nth-child(1n){
+margin-right:8px;
+}
+
+
+
+.section{ 
+    min-width: 1230px;   
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+          
+}  
+.flex-features{
+    padding: 20px 24px;
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-right:1px solid rgba(238, 238, 238, 1) ;
+    border-bottom:1px solid rgba(238, 238, 238, 1);
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+/*.container-features {
+     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+
+    
+  
+   
+}  */
+.item-features{
+
+    margin: 15px;
+
+}
+
+
+.features-title{
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--primeri-text-color);
+    margin-bottom: 4px;
+    
+    
+    }
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1.87;
+    color:var(--title-text-color);
+   
+    
+    }
+.item{
+    text-decoration: none;
+}
+.img{
+    display: block0;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+    
+
+
+  /*------footer------*/
+    
+footer{
+    background-color: var(--background-color-title);
+    text-decoration: none;
+    width: 1630px;
+    height:auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+   
+}
+
+
+.container-address{
+    width: 1630px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container-address:last-child{
+    margin-bottom: 60px;
+
+}
+
+
+.logo-page{
+    color: var(--basis-text-color);
+    font-family:Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  
+}
+.address-section{
+    display: flex;
+    flex-wrap: wrap;
+     
+ 
+}
+
+
+.address-add {
+    color:var(--basis-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-top: 20px;
+   
+    
+
+ }
+ .address-add:hover{
+    color: var(--accent-text-color);
+
+ }
+
+
+ .address-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-top: 9px;
+    
+ }
+ 
+ .address-link:hover {
+    color:var(--accent-text-color);
+
+ }
+ .address-item{
+    margin-bottom:9px;
+ }
+ .address-item:last-child{
+    margin-bottom: 0px;
+ }
+
